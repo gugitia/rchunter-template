@@ -1,0 +1,36 @@
+.side-images img {
+  width: 75px;
+  height: 75px;
+  margin-right: 50px;
+}
+
+.carousel img {
+  opacity: 0.8;
+}
+
+.btn1 {
+  margin-left: -45px;
+}
+
+.btn2 {
+  margin-left: 620px;
+}
+
+.btn1,
+.btn2 {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (max-width: 1030px) {
+  .carousel {
+    margin-left: -200px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .clientes p {
+    width: 400px;
+  }
+  .carousel {
+    margin-left: -300px;
+  }
+}

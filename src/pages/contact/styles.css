@@ -1,0 +1,89 @@
+.main3 {
+  background-color: #dbdbdb;
+  margin: -8px;
+  margin-top: -30px;
+  height: 1200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main3 h1 {
+  margin-left: 70px;
+  padding-top: 50px;
+  color: #0c40b5;
+}
+
+.main3 h3 {
+  margin-left: 70px;
+  color: #3a3a3a;
+}
+.pfp12 {
+  width: 350px;
+  height: 350px;
+  margin-right: 200px;
+  margin-top: -600px;
+  float: right;
+}
+
+.email {
+  height: 300px;
+}
+
+.formulario {
+  margin-left: 69px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: #0c40b5;
+}
+
+form {
+  width: 500px;
+  margin-left: 60px;
+}
+
+form input {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 8px;
+}
+
+form button {
+  margin-left: 200px;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  color: #dbdbdb;
+  background-color: #1d52ce;
+  cursor: pointer;
+}
+
+form button:active {
+  background-color: #0c40b5;
+}
+
+@media screen and (max-width: 1150px) {
+  .pfp12 {
+    transform: scale(0.7);
+    margin-right: 00px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pfp12 {
+    transform: scale(0.5);
+    margin-top: -800px;
+    margin-right: -50px;
+  }
+}

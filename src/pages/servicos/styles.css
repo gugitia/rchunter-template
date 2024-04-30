@@ -1,0 +1,69 @@
+.main2 {
+  background-color: #dbdbdb;
+  margin: -8px;
+  margin-top: -30px;
+  height: 1200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main2 h1 {
+  margin-left: 70px;
+  padding-top: 50px;
+  color: #0c40b5;
+}
+
+.texto-servico1,
+.texto-servico2 {
+  margin-left: 70px;
+  margin-bottom: -75px;
+  width: 1000px;
+  height: 300px;
+}
+
+.txt1 {
+  width: 500px;
+}
+
+.txt2 {
+  width: 400px;
+}
+
+.spic1,
+.spic2 {
+  width: 200px;
+  height: 200px;
+  margin-top: -140px;
+  margin-right: 100px;
+  float: right;
+}
+
+.spic2 {
+  margin-top: -230px;
+  width: 300px;
+}
+
+.clientes {
+  margin-top: -100px;
+}
+
+.clientes p,
+.clientes h2 {
+  width: 800px;
+  margin-left: 70px;
+}
+
+.carrosel {
+  margin-left: 400px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1000px) {
+  .spic1 {
+    margin-right: 300px;
+  }
+  .spic2 {
+    margin-top: -230px;
+    margin-right: 250px;
+    width: 300px;
+  }
+}

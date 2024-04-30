@@ -1,0 +1,68 @@
+.main {
+  background-color: #dbdbdb;
+  margin: -8px;
+}
+
+.front-image {
+  height: 575px;
+  width: 850px;
+  margin-left: -40px;
+  margin-top: 0px;
+}
+.texto {
+  width: 400px;
+  height: 575px;
+  margin-left: 850px;
+  margin-top: -550px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0c40b5;
+}
+.texto p {
+  color: #3a3a3a;
+}
+
+@media screen and (max-width: 1250px) {
+  .app {
+    background-color: #dbdbdb;
+    margin: -8px;
+    overflow: hidden;
+  }
+  .main {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .app {
+    background-color: #dbdbdb;
+    margin: -8px;
+    overflow: hidden;
+  }
+  .main {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .app {
+    background-color: #dbdbdb;
+    margin: -8px;
+    overflow: hidden;
+  }
+  .main {
+    transform: scale(0.6);
+    margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    margin-left: -250px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    margin-left: -350px;
+  }
+}
