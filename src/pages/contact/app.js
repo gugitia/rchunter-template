@@ -1,4 +1,6 @@
 import "./styles.css";
+import { Helmet } from 'react-helmet';
+
 import rpfp from "../../assets/rafa-pfp.jpeg";
 import Header from "../../components/header/header";
 import Form from "../../components/form/form";
@@ -27,6 +29,12 @@ function App() {
 
   return (
     <div className="app">
+
+      <Helmet>
+        <title>Fale conosco</title>
+        <meta name="description" content="entrar em contato" />
+      </Helmet>
+
       <Header />
       <div className="main3">
         <h1>Contato</h1>
