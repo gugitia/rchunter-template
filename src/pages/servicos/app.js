@@ -1,4 +1,6 @@
 import "./styles.css";
+import { Helmet } from 'react-helmet';
+
 import rpfp from "../../assets/rafa-pfp.jpeg";
 import Header from "../../components/header/header";
 import Carousel from "../../components/carrosel/carrosel";
@@ -6,6 +8,12 @@ import Carousel from "../../components/carrosel/carrosel";
 function App() {
   return (
     <div className="app">
+
+      <Helmet>
+        <title>Nossos serviços</title>
+        <meta name="description" content="Conheça mais sobre nosso trabalho" />
+      </Helmet>
+
       <Header />
       <div className="main2">
         <h1>Serviços</h1>

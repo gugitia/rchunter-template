@@ -1,4 +1,5 @@
 import "./styles.css";
+import { Helmet } from 'react-helmet';
 
 import rpfp from "../../assets/rafa-pfp.jpeg";
 
@@ -7,6 +8,12 @@ import Header from "../../components/header/header";
 function App() {
   return (
     <div className="app">
+
+       <Helmet>
+        <title>Sobre nós</title>
+        <meta name="description" content="Conheça mais sobre nós" />
+      </Helmet>
+
       <Header />
       <div className="main1">
         <h1>Sobre nós</h1>

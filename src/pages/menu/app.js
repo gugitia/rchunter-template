@@ -1,12 +1,20 @@
 import "./styles.css";
 import "../../global.css";
 
+import { Helmet } from 'react-helmet';
+
 import Header from "../../components/header/header";
 import frontimage from "../../assets/image-backg.jpeg";
 
 function App() {
   return (
     <div className="app">
+
+      <Helmet>
+        <title>RCHunter</title>
+        <meta name="description" content="RC Hunter IT software house" />
+      </Helmet>
+
       <Header />
       <div className="main">
         <img src={frontimage} alt="decoration" className="front-image" />
