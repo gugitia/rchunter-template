@@ -41,7 +41,7 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextImage, 5000);
+    const interval = setInterval(nextImage, 2000);
 
     // Limpar o intervalo quando o componente for desmontado
     return () => clearInterval(interval);
